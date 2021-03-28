@@ -1,53 +1,53 @@
 [{
-  "name": "Matt",
-  "tips": [6]
-},
-{
-  "name": "Killer",
-  "tips": [4]
-},
-{
-  "name": "Craig",
-  "tips": [6]
-},
-{
-  "name": "Shane",
-  "tips": [5]
-},
-{
   "name": "Michael",
-  "tips": [6]
-},
-{
-  "name": "Mittz",
-  "tips": [6]
-},
-{
-  "name": "Niki",
-  "tips": [5]
-},
-{
-  "name": "Tom",
-  "tips": [6]
-},
-{
-  "name": "Dave",
-  "tips": [6]
-},
-{
-  "name": "Ol Balls",
-  "tips": [3]
-},
-{
-  "name": "Yogi",
-  "tips": [5]
-},
-{
-  "name": "Muz",
-  "tips": [5]
+  "tips": [6,9]
 },
 {
   "name": "Chris",
-  "tips": [4]
+  "tips": [4,7]
+},
+{
+  "name": "Yogi",
+  "tips": [5,6]
+},
+{
+  "name": "Shane",
+  "tips": [5,8]
+},
+{
+  "name": "Muz",
+  "tips": [5,7]
+},
+{
+  "name": "Craig",
+  "tips": [6,4]
+},
+{
+  "name": "Niki",
+  "tips": [5,5]
+},
+{
+  "name": "Dave",
+  "tips": [6,6]
+},
+{
+  "name": "Ol Balls",
+  "tips": [3,4]
+},
+{
+  "name": "Mitsy",
+  "tips": [6,5]
+},
+{
+  "name": "Tom",
+  "tips": [6,5]
+},
+{
+  "name": "Killer",
+  "tips": [4,7]
+},
+{
+  "name": "Matt",
+  "tips": [6,6]
 }
 ]

@@ -6,14 +6,14 @@
         <tr class="bg-gray-200">
           <th class="px-4">Name</th>
           <th class="px-4">Total</th>
-          <th class="px-4 font-bold">Round Totals (starting from round 1)</th>
+          <th class="px-4 font-bold" v-for="(item, key) in getSortedTips()[0].tips" :key="key">Rd {{ key + 1 }}</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="tipper in getSortedTips()" :key="tipper.name">
           <td class="px-4">{{ tipper.name }}</td>
           <td class="px-4">{{ tipper.total }}</td>
-          <td class="px-4">{{ tipper.tips.join() }}</td>
+          <td class="px-4" v-for="round in tipper.tips" :key="round.id">{{ round }}</td>
         </tr>
       </tbody>
     </table>
