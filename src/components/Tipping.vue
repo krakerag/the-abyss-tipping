@@ -6,14 +6,14 @@
         <tr class="bg-gray-200">
           <th class="px-4">Name</th>
           <th class="px-4">Total</th>
-          <th class="px-4 font-bold" v-for="(item, key) in getSortedTips()[0].tips" :key="key">Rd {{ key + 1 }}</th>
+          <th class="px-4 font-bold" v-for="(item, key) in getSortedTips()[0].tips" :key="key">Rd {{ getSortedTips()[0].tips.length - key }}</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="tipper in getSortedTips()" :key="tipper.name">
           <td class="px-4">{{ tipper.name }}</td>
           <td class="px-4">{{ tipper.total }}</td>
-          <td class="px-4" v-for="round in tipper.tips" :key="round.id">{{ round }}</td>
+          <td class="px-4" v-for="round in tipper.reversedTips" :key="round.id">{{ round }}</td>
         </tr>
       </tbody>
     </table>
@@ -31,9 +31,11 @@ export default {
         element.total = element.tips.reduce((result, item) => {
           return result + item;
         }, 0);
+        element.reversedTips = [...element.tips]
+        element.reversedTips.reverse();
         return element;
       });
-
+      console.log(tips);
       tips.sort((a, b) => {
         if (a.total < b.total) {
           return 1;
