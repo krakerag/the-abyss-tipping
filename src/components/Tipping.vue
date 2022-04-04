@@ -1,6 +1,6 @@
 <template>
   <div class="pt-12 pl-12 w-auto">
-    <h1 class="font-black">Tipping Totals - 2021</h1>
+    <h1 class="font-black">Tipping Totals - 2022</h1>
     <table class="table-auto border mt-6">
       <thead>
         <tr class="bg-gray-200">
