@@ -35,7 +35,6 @@ export default {
         element.reversedTips.reverse();
         return element;
       });
-      console.log(tips);
       tips.sort((a, b) => {
         if (a.total < b.total) {
           return 1;
@@ -45,6 +44,7 @@ export default {
         }
         return 0;
       });
+      console.log(tips);
 
       return tips;
     }
