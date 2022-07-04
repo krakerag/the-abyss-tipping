@@ -13,7 +13,7 @@
         <tr v-for="tipper in getSortedTips()" :key="tipper.name">
           <td class="px-4">{{ tipper.name }}</td>
           <td class="px-4">{{ tipper.total }}</td>
-          <td class="px-4" v-for="round in tipper.reversedTips" :key="round.id">{{ round }}</td>
+          <td class="px-4" :class="{ 'bg-yellow-300': round === 9 }" v-for="round in tipper.reversedTips" :key="round.id">{{ round }}</td>
         </tr>
       </tbody>
     </table>
