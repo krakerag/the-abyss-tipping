@@ -1,56 +1,53 @@
 [{
   "name": "Michael",
-  "tips": []
+  "tips": [4]
 },
 {
   "name": "Chris",
-  "tips": []
+  "tips": [4]
 },
 {
   "name": "Yogi",
-  "tips": []
+  "tips": [4]
 },
 {
   "name": "Shane",
-  "tips": []
+  "tips": [4]
 },
 {
   "name": "Muz",
-  "tips": []
+  "tips": [3]
 },
 {
   "name": "Craig",
-  "tips": []
+  "tips": [5]
 },
 {
   "name": "Niki",
-  "tips": []
+  "tips": [7]
 },
 {
   "name": "Dave",
-  "tips": []
+  "tips": [5]
 },
 {
   "name": "Ol Balls",
-  "tips": []
+  "tips": [5]
 },
 {
   "name": "Mitsy",
-  "tips": []
+  "tips": [5]
 },
 {
   "name": "Tom",
-  "tips": []
+  "tips": [4]
 },
 {
   "name": "Killer",
-  "tips": []
+  "tips": [5]
 },
 {
   "name": "Matt",
-  "tips": []
-},
-{
-  "name": "Tim",
-  "tips": []
-}]
+  "tips": [7]
+}
+]
