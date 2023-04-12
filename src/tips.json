@@ -1,53 +1,53 @@
 [{
   "name": "Michael",
-  "tips": [4,4,4]
+  "tips": [4,4,4,6]
 },
 {
   "name": "Chris",
-  "tips": [4,6,2]
+  "tips": [4,6,2,5]
 },
 {
   "name": "Yogi",
-  "tips": [4,4,4]
+  "tips": [4,4,4,7]
 },
 {
   "name": "Shane",
-  "tips": [4,6,5]
+  "tips": [4,6,5,7]
 },
 {
   "name": "Muz",
-  "tips": [3,7,3]
+  "tips": [3,7,3,7]
 },
 {
   "name": "Craig",
-  "tips": [5,6,2]
+  "tips": [5,6,2,3]
 },
 {
   "name": "Niki",
-  "tips": [7,5,3]
+  "tips": [7,5,3,6]
 },
 {
   "name": "Dave",
-  "tips": [5,5,4]
+  "tips": [5,5,4,5]
 },
 {
   "name": "Ol Balls",
-  "tips": [5,6,5]
+  "tips": [5,6,5,6]
 },
 {
   "name": "Mitsy",
-  "tips": [5,7,3]
+  "tips": [5,7,3,6]
 },
 {
   "name": "Tom",
-  "tips": [4,7,2]
+  "tips": [4,7,2,4]
 },
 {
   "name": "Killer",
-  "tips": [5,4,4]
+  "tips": [5,4,4,6]
 },
 {
   "name": "Matt",
-  "tips": [7,4,5]
+  "tips": [7,4,5,6]
 }
 ]
